@@ -6,8 +6,8 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const config = new DocumentBuilder()
-    .setTitle('Median')
-    .setDescription('The Median API description')
+    .setTitle('Futsal Hub Documentation')
+    .setDescription('The Futsal Hub API description')
     .setVersion('0.1')
     .build();
 
